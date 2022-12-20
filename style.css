@@ -337,8 +337,8 @@ img {
         box-sizing: border-box;
         font-family: 'Poppins',sans-serif;
         position: relative;
-        min-height: 50vh;
-        padding: 50px 100px;
+        min-height: 50px;
+        padding: 5px 10px;
         background-color: rgb(214, 255, 198);
         justify-content: center;
         align-items: center;
@@ -350,7 +350,7 @@ img {
         color: rgb(255, 255, 255);
         list-style:none;
         margin: 30px 40px;
-        padding-top: 20px;
+        padding-top: 10px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -363,20 +363,10 @@ img {
     
     #footer ul li a:hover{
         color: #ff4321;
+    }
+    .foot ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     } 
     
-    
-    .social-links{
-        margin-left: 8%;
-        margin-top: 100px;
-    }
-    
-    .social-links a{
-        font-size: 30px;
-        color: #606163;
-        margin-right: 20px;
-    }
-    
-    .social-links a:hover{
-     color: #ff4321;
-    }
